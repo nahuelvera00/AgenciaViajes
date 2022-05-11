@@ -1,0 +1,30 @@
+extends ./layout/index
+
+block contenido
+    main.container.mt-5
+        .row 
+            .col-md-5 
+                img(src="img/nosotros.jpg", alt="imagen sobre nosotros", class="img-fluid")
+            .col-md-7 
+                h1 #{pagina}
+                blockquote Sed et condimentum metus. In quis sollicitudin mi. Integer a mattis justo. Curabitur dignissim quam nec dui faucibus mattis. Fusce suscipit risus in leo pulvinar elementum.
+
+                p Nunc sit amet mi mollis, posuere enim eu, ullamcorper elit. Mauris leo erat, aliquam in elit quis, commodo accumsan velit. Praesent maximus tristique magna, facilisis fermentum sem sodales nec. Nullam lobortis nulla sit amet porta dapibus.
+
+                p Sed eget dui nec diam volutpat accumsan. Cras nec lacinia leo, et blandit tortor. Curabitur a urna lectus. Nam sit amet purus odio. Pellentesque sagittis, eros at feugiat ultrices, ipsum mauris tincidunt nisl, a semper dui nisl quis mi.
+
+    .listado-iconos
+        .container.mt-5.py-5.text-center 
+            .row 
+                .col-md-4
+                    img(src="img/icono_seguridad.svg", alt="icono seguridad", class="img-fluid mb-4")
+                    h2.mb-4 Seguridad
+                    p Sed et condimentum metus. In quis sollicitudin mi. Integer a mattis justo. Curabitur dignissim quam nec dui faucibus mattis.
+                .col-md-4
+                    img(src="img/icono_destinos.svg", alt="icono destino", class="img-fluid mb-4")
+                    h2.mb-4 Destino
+                    p Sed et condimentum metus. In quis sollicitudin mi. Integer a mattis justo. Curabitur dignissim quam nec dui faucibus mattis.
+                .col-md-4
+                    img(src="img/icono_precios.svg", alt="icono precios", class="img-fluid mb-4")
+                    h2.mb-4 Los Mejores Precios
+                    p Sed et condimentum metus. In quis sollicitudin mi. Integer a mattis justo. Curabitur dignissim quam nec dui faucibus mattis.
